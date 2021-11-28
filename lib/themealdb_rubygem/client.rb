@@ -67,7 +67,7 @@ module ThemealdbRubygem
       { code: response.status, data: response.body }
     end
 
-    def list_area
+    def list_areas
       response = connection.get("list.php", {a: 'list'})
       { code: response.status, data: response.body }
     end
