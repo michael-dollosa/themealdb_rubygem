@@ -77,7 +77,7 @@ client.list_categories
 ### List all area
 
 ```ruby
-client.list_area
+client.list_areas
 ```
 
 ### List all ingredients
