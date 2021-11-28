@@ -38,13 +38,6 @@ client = ThemealdbRubygem::Client.new
 client = ThemealdbRubygem::Client.new(api_key: 9973533)
 ```
 
-
-### Get all Tournaments
-
-```ruby
-client.tournaments
-```
-
 ### Search meal by name
 
 ```ruby
