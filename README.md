@@ -35,25 +35,25 @@ client = ThemealdbRubygem::Client.new
 #### with api key (paid)
 
 ```ruby
-client = ThemealdbRubygem::Client.new(api_key: 9973533)
+client = ThemealdbRubygem::Client.new(api_key: YOUR_API_KEY)
 ```
 
 ### Search meal by name
 
 ```ruby
-client.search_by_name(name)
+client.search_by_name("Arrabiata")
 ```
 
 ### Search by first letter
 
 ```ruby
-client.search_by_first_letter(letter)
+client.search_by_first_letter("a")
 ```
 
 ### Search by ID
 
 ```ruby
-client.search_by_id(id)
+client.search_by_id("52772")
 ```
 
 ### Random Meal
@@ -90,19 +90,19 @@ client.list_ingredients
 Note that for paid users (those with api keys), ingredient variable can hold multiple strings (ingredient = "chicken_breast,garlic,salt").
 
 ```ruby
-client.filter_by_main_ingredient(ingredient)
+client.filter_by_main_ingredient("chicken breast")
 ```
 
 ### Filter by category
 
 ```ruby
-client.filter_by_category(category)
+client.filter_by_category("Seafood")
 ```
 
 ### Filter by area
 
 ```ruby
-client.filter_by_area(area)
+client.filter_by_area("Canadian")
 ```
 
 ## Contributing
